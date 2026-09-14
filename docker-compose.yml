@@ -17,7 +17,7 @@ services:
     restart: unless-stopped
 
   pgadmin:
-    image: dpage/pgadmin4:latest
+    image: dpage/pgadmin4:latest // lieber mit versions nummern arbeiten
     container_name: pgadmin_container
     environment:
       PGADMIN_DEFAULT_EMAIL: pgadmin@gmail.com

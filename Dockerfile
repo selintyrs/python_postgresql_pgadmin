@@ -1,1 +1,1 @@
-FROM postgis/postgis
+FROM postgis/postgis 
